@@ -1,24 +1,24 @@
 {
-  "title": "Desmos Block Explorer",
-  "network": "morpheus-apollo-2",
-  "icon": "https://raw.githubusercontent.com/forbole/big-dipper-assets/master/desmos/icon.svg?sanitize=true",
+  "title": "MantraChain Block Explorer",
+  "network": "mantrachain",
+  "icon": "https://assets-global.website-files.com/60d9b144837ef1233e15648a/61541dac77a9ec141fe9641d_om-dark.svg?sanitize=true",
   "logo": {
-    "default": "https://raw.githubusercontent.com/forbole/big-dipper-assets/master/desmos/logo.svg?sanitize=true"
+    "default": "https://assets-global.website-files.com/60d9b144837ef1233e15648a/60e6e754b0bc6c7f5a66b4f3_logo-on-black.svg?sanitize=true"
   },
   "prefix": {
-    "consensus": "desmosvalcons",
-    "validator": "desmosvaloper",
-    "account": "desmos"
+    "consensus": "mantrachain_consensus",
+    "validator": "mantrachain_validator",
+    "account": "cosmos"
   },
   "genesis": {
     "time": "2021-07-13T08:00:00",
     "height": 1
   },
-  "primaryTokenUnit": "udaric",
-  "votingPowerTokenUnit": "udaric",
+  "primaryTokenUnit": "stake",
+  "votingPowerTokenUnit": "stake",
   "tokenUnits": {
-    "udaric": {
-      "display": "daric",
+    "ustake": {
+      "display": "stake",
       "exponent": 6
     }
   },

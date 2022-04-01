@@ -14,8 +14,8 @@
     "time": "2021-07-13T08:00:00",
     "height": 1
   },
-  "primaryTokenUnit": "stake",
-  "votingPowerTokenUnit": "stake",
+  "primaryTokenUnit": "ustake",
+  "votingPowerTokenUnit": "ustake",
   "tokenUnits": {
     "ustake": {
       "display": "stake",
